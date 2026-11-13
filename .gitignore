@@ -1,0 +1,27 @@
+# Blender: automatické zálohy a dočasné soubory
+*.blend[0-9]*
+*.blend@
+*.bphys
+*.btemp
+
+# Dočasná data: tyto názvy používej jen pro obnovitelný obsah
+**/cache/
+**/tmp/
+**/temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Lokální nastavení a přihlašovací údaje
+.env
+.env.*
+!.env.example
+
+# Operační systémy
+.DS_Store
+Thumbs.db
+Desktop.ini
